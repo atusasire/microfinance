@@ -1,0 +1,60 @@
+/***********************READ ME ***************************/
+
+The microfinace system.
+
+index.php
+	This page has a simple login page, it works with login.php as its action.
+	The password there is created on setting up the security table in the connection.php. 
+	initially the password is 12345 but it can change after loging to admin_task.php
+        The sign up on this page is for the clients//those who have borrowed some money from the company.
+admin_task.php
+	this is where the initial borrowing is made. That table below is in display_borrowings.php
+record_payments.php
+	This is where the payments are made, that table below is in display_payments.php
+
+/*****************AFTER THIS **************************/
+that signup link is for the client
+After he has loged, he sees his payments.
+
+
+
+
+
+
+/*******************************************************************/
+
+	 DATABASE CONNECTIVITY
+
+NB: to connect the payments to the database, set the connections direct in the payments_track.php at 
+line 269 and 307 in the function get_balance() and function get_balance_flow() respectively.
+
+/*******************************************************************/
+
+   /********Put this in the connection line of php ***********/
+
+username : beca831686c272
+password d3e17c90
+hostname: eu-cdbr-azure-north-d.cloudapp.net
+database name: mydbappAuTMl0gky
+
+
+URL: getwayhostels.azurewebsites.net
+
+	/**********copy these into fileZilla to deploy the code ****************/
+ 
+publishUrl(host)                  : ftp://waws-prod-db3-021.ftp.azurewebsites.windows.net/site/wwwroot
+ 
+userName                    : getwayhostels\$getwayhostels
+
+userPWD                     : jWhNcMHmG2ujri2fbQtC55Ym0L4FxgdlG16CEkRjofhKGHltw7Xe6oMnbkGy
+
+destinationAppUrl           : http://getwayhostels.azurewebsites.net
+
+
+
+/&&&&&&&&&&&&&&&&&&  @Charles Thembo   &&&&&&&&&&&&&&&&&&&&&/
+
+
+
+
+ 
